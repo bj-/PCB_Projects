@@ -1,0 +1,16 @@
+Field=Comment~String~Comment~100|Field=Description~String~Description~100|Field=Designator~String~Designator~100|Field=Footprint~String~Footprint~100|Field=LibRef~String~LibRef~100|Field=Quantity~Integer~Quantity~100|ReportField=Currency~<none>|ReportField=ProductionQuantity~1|ReportField=ProjectFileName~ServersControl.PrjPcb|ReportField=ProjectFullPath~D:\_Disk\15Tb\Ёлектро схемы\Rack Servers Control System\ServersControl.PrjPcb|ReportField=Title~Bill of Materials For Project [ServersControl.PrjPcb] (No PCB Document Selected)|ReportField=TotalQuantity~82|ReportField=ReportTime~4:11:40|ReportField=ReportDate~20.12.2013|ReportField=ReportDateTime~20.12.2013 4:11:40|ReportField=OutputName~Bill of Materials|ReportField=OutputType~BOM_PartType|ReportField=GeneratorName~BOM|ReportField=GeneratorDescription~Bill of Materials|ReportField=VariantName~None|ReportField=Address1~|ReportField=Address2~|ReportField=Address3~|ReportField=Address4~|ReportField=ApprovedBy~|ReportField=Author~|ReportField=CheckedBy~|ReportField=CompanyName~|ReportField=CurrentDate~20.12.2013|ReportField=CurrentTime~4:11:37|ReportField=Date~|ReportField=DocumentFullPathAndName~D:\_Disk\15Tb\Ёлектро схемы\Rack Servers Control System\MainBlock.SchDoc|ReportField=DocumentName~MainBlock.SchDoc|ReportField=DocumentNumber~|ReportField=DrawnBy~|ReportField=Engineer~|ReportField=ImagePath~|ReportField=ModifiedDate~20.12.2013|ReportField=Organization~|ReportField=ProjectName~ServersControl.PrjPcb|ReportField=Revision~|ReportField=Rule~|ReportField=SheetNumber~|ReportField=SheetTotal~|ReportField=Time~|ReportField=Title~|ReportField=DataSourceFileName~ServersControl.PrjPcb|ReportField=DataSourceFullPath~D:\_Disk\15Tb\Ёлектро схемы\Rack Servers Control System\ServersControl.PrjPcb
+0.01mF|Capacitor|C1|Cap (3p)|Cap|1
+to Arduino|8pin Connector|J1|Line 2.54 x 8|Connector ( 8 pin )|1
+Power Supply|8pin Connector|J2|Line 2.54 x 2|Connector ( 2 pin )|1
+Connector|32pin Connector|J3|LINE 2.54 x 16D|Connector Dbl ( 32 pin )|1
+Connector|16pin Connector|J4|LINE 2.54 x 8D mirrored|Connector Dbl ( 16 pin )|1
+Outputs|8pin Connector|J6, J7, J8, J9|Line 2.54 X 8D|Connector ( 8 pin )|4
+Jumper||Jmp1|Jumper S 13x4|Jumper|1
+330 Om||R1, R2, R3, R4, R5, R6, R7, R8, R9, R10, R11, R12, R13, R14, R15, R16, R17, R18, R19, R20, R21, R22, R23, R24|Res p7.62 (4p)|Resistor|24
+10  Om||R25, R27, R29, R31, R33, R35, R37, R39, R41, R43, R45, R47, R49, R51, R53, R55|SMD 0603 (1608)|Resistor|16
+220 Om||R26, R28, R30, R32, R34, R36, R38, R40, R50, R52, R54, R56|SMD 1206 (3216)|Resistor|12
+220 Om||R42, R44, R46, R48|Res p7.62 (4p)|Resistor|4
+SN74HC595N|8-Bit Shift Register with 3-State Output Registers|U1, U4, U7|DIP16|SN74HC595N|3
+Optocouplier|4x channel|U2, U3, U5, U6, U8, U9, U11, U12, U14, U15|DIP16|Optocouplier 4x|10
+SN74HC165N|8-Bit Parallel-Load Shift Register|U10, U13|DIP16|SN74HC165N|2
+name||VT1|Trnstr (3p) ECB|NPN|1

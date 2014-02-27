@@ -1,0 +1,203 @@
+<?xml version = "1.0" ?>
+<?xml:stylesheet type="text/xsl" href="SystemBOM.xsl"?>
+<!DOCTYPE GRID [
+  <!ELEMENT GRID (BANDS, COLUMNS, ROWS*)>
+  <!ATTLIST GRID ExportVersion CDATA #REQUIRED>
+  <!ELEMENT BANDS (BAND*)>
+  <!ELEMENT BAND EMPTY>
+  <!ATTLIST BAND Index CDATA #REQUIRED>
+  <!ATTLIST BAND Caption CDATA #IMPLIED>
+  <!ELEMENT COLUMNS (COLUMN*)>
+  <!ELEMENT COLUMN EMPTY>
+  <!ATTLIST COLUMN Name CDATA #REQUIRED>
+  <!ATTLIST COLUMN Caption CDATA #IMPLIED>
+  <!ATTLIST COLUMN Index CDATA #REQUIRED>
+  <!ATTLIST COLUMN BandIndex CDATA #REQUIRED>
+  <!ATTLIST COLUMN RowIndex CDATA #REQUIRED>
+  <!ATTLIST COLUMN ColIndex CDATA #REQUIRED>
+  <!ATTLIST COLUMN Width CDATA #IMPLIED>
+  <!ELEMENT GROUP (GROUP*, ROW*)>
+  <!ATTLIST GROUP GroupText CDATA #IMPLIED>
+  <!ELEMENT ROWS (ROW*)>
+  <!ELEMENT ROW EMPTY>
+  <!ATTLIST ROW Address1 CDATA #IMPLIED>
+  <!ATTLIST ROW Address2 CDATA #IMPLIED>
+  <!ATTLIST ROW Address3 CDATA #IMPLIED>
+  <!ATTLIST ROW Address4 CDATA #IMPLIED>
+  <!ATTLIST ROW ApprovedBy CDATA #IMPLIED>
+  <!ATTLIST ROW Author CDATA #IMPLIED>
+  <!ATTLIST ROW CheckedBy CDATA #IMPLIED>
+  <!ATTLIST ROW Code_JEDEC CDATA #IMPLIED>
+  <!ATTLIST ROW Comment CDATA #IMPLIED>
+  <!ATTLIST ROW CompanyName CDATA #IMPLIED>
+  <!ATTLIST ROW Component_Kind CDATA #IMPLIED>
+  <!ATTLIST ROW ComponentKind CDATA #IMPLIED>
+  <!ATTLIST ROW ComponentLink1Description CDATA #IMPLIED>
+  <!ATTLIST ROW ComponentLink1URL CDATA #IMPLIED>
+  <!ATTLIST ROW ComponentLink2Description CDATA #IMPLIED>
+  <!ATTLIST ROW ComponentLink2URL CDATA #IMPLIED>
+  <!ATTLIST ROW CurrentDate CDATA #IMPLIED>
+  <!ATTLIST ROW CurrentTime CDATA #IMPLIED>
+  <!ATTLIST ROW DatasheetVersion CDATA #IMPLIED>
+  <!ATTLIST ROW Date CDATA #IMPLIED>
+  <!ATTLIST ROW Description CDATA #IMPLIED>
+  <!ATTLIST ROW Designator CDATA #IMPLIED>
+  <!ATTLIST ROW Designator_X_Mil_ CDATA #IMPLIED>
+  <!ATTLIST ROW Designator_X_mm_ CDATA #IMPLIED>
+  <!ATTLIST ROW Designator_Y_Mil_ CDATA #IMPLIED>
+  <!ATTLIST ROW Designator_Y_mm_ CDATA #IMPLIED>
+  <!ATTLIST ROW DesignItemId CDATA #IMPLIED>
+  <!ATTLIST ROW Document CDATA #IMPLIED>
+  <!ATTLIST ROW DocumentFullPathAndName CDATA #IMPLIED>
+  <!ATTLIST ROW DocumentName CDATA #IMPLIED>
+  <!ATTLIST ROW DocumentNumber CDATA #IMPLIED>
+  <!ATTLIST ROW DrawnBy CDATA #IMPLIED>
+  <!ATTLIST ROW Engineer CDATA #IMPLIED>
+  <!ATTLIST ROW Footprint CDATA #IMPLIED>
+  <!ATTLIST ROW Height_Mil_ CDATA #IMPLIED>
+  <!ATTLIST ROW Height_mm_ CDATA #IMPLIED>
+  <!ATTLIST ROW Ibis_Model CDATA #IMPLIED>
+  <!ATTLIST ROW ImagePath CDATA #IMPLIED>
+  <!ATTLIST ROW Index CDATA #IMPLIED>
+  <!ATTLIST ROW ItemGUID CDATA #IMPLIED>
+  <!ATTLIST ROW LatestRevisionDate CDATA #IMPLIED>
+  <!ATTLIST ROW LatestRevisionNote CDATA #IMPLIED>
+  <!ATTLIST ROW Library_Name CDATA #IMPLIED>
+  <!ATTLIST ROW Library_Reference CDATA #IMPLIED>
+  <!ATTLIST ROW LibRef CDATA #IMPLIED>
+  <!ATTLIST ROW LogicalDesignator CDATA #IMPLIED>
+  <!ATTLIST ROW LTV847_Datasheet CDATA #IMPLIED>
+  <!ATTLIST ROW Model_Footprint CDATA #IMPLIED>
+  <!ATTLIST ROW Model_PCB3D CDATA #IMPLIED>
+  <!ATTLIST ROW Model_Signal_Integrity CDATA #IMPLIED>
+  <!ATTLIST ROW Models CDATA #IMPLIED>
+  <!ATTLIST ROW ModifiedDate CDATA #IMPLIED>
+  <!ATTLIST ROW Organization CDATA #IMPLIED>
+  <!ATTLIST ROW PackageDescription CDATA #IMPLIED>
+  <!ATTLIST ROW PackageReference CDATA #IMPLIED>
+  <!ATTLIST ROW PackageVersion CDATA #IMPLIED>
+  <!ATTLIST ROW PartType CDATA #IMPLIED>
+  <!ATTLIST ROW PCB3D CDATA #IMPLIED>
+  <!ATTLIST ROW PhysicalPath CDATA #IMPLIED>
+  <!ATTLIST ROW Pins CDATA #IMPLIED>
+  <!ATTLIST ROW Project CDATA #IMPLIED>
+  <!ATTLIST ROW ProjectName CDATA #IMPLIED>
+  <!ATTLIST ROW Published CDATA #IMPLIED>
+  <!ATTLIST ROW Publisher CDATA #IMPLIED>
+  <!ATTLIST ROW Quantity CDATA #IMPLIED>
+  <!ATTLIST ROW Revision CDATA #IMPLIED>
+  <!ATTLIST ROW RevisionGUID CDATA #IMPLIED>
+  <!ATTLIST ROW Rule CDATA #IMPLIED>
+  <!ATTLIST ROW SheetNumber CDATA #IMPLIED>
+  <!ATTLIST ROW SheetTotal CDATA #IMPLIED>
+  <!ATTLIST ROW Signal_Integrity CDATA #IMPLIED>
+  <!ATTLIST ROW Simulation CDATA #IMPLIED>
+  <!ATTLIST ROW SourceLibraryName CDATA #IMPLIED>
+  <!ATTLIST ROW Sub_Parts CDATA #IMPLIED>
+  <!ATTLIST ROW Time CDATA #IMPLIED>
+  <!ATTLIST ROW Title CDATA #IMPLIED>
+  <!ATTLIST ROW UniqueIdName CDATA #IMPLIED>
+  <!ATTLIST ROW UniqueIdPath CDATA #IMPLIED>
+  <!ATTLIST ROW Variant CDATA #IMPLIED>
+  <!ATTLIST ROW VaultGUID CDATA #IMPLIED>
+]>
+<GRID ExportVersion="1.0">
+  <BANDS>
+    <BAND Index="0" Caption=""></BAND>
+  </BANDS>
+  <COLUMNS>
+    <COLUMN Name="Address1" Caption="Address1" Index="0" BandIndex="0" RowIndex="0" ColIndex="0" Width="100"></COLUMN>
+    <COLUMN Name="Address2" Caption="Address2" Index="1" BandIndex="0" RowIndex="0" ColIndex="1" Width="100"></COLUMN>
+    <COLUMN Name="Address3" Caption="Address3" Index="2" BandIndex="0" RowIndex="0" ColIndex="2" Width="100"></COLUMN>
+    <COLUMN Name="Address4" Caption="Address4" Index="3" BandIndex="0" RowIndex="0" ColIndex="3" Width="100"></COLUMN>
+    <COLUMN Name="ApprovedBy" Caption="ApprovedBy" Index="4" BandIndex="0" RowIndex="0" ColIndex="4" Width="100"></COLUMN>
+    <COLUMN Name="Author" Caption="Author" Index="5" BandIndex="0" RowIndex="0" ColIndex="5" Width="100"></COLUMN>
+    <COLUMN Name="CheckedBy" Caption="CheckedBy" Index="6" BandIndex="0" RowIndex="0" ColIndex="6" Width="100"></COLUMN>
+    <COLUMN Name="Code_JEDEC" Caption="Code_JEDEC" Index="7" BandIndex="0" RowIndex="0" ColIndex="7" Width="100"></COLUMN>
+    <COLUMN Name="Comment" Caption="Comment" Index="8" BandIndex="0" RowIndex="0" ColIndex="8" Width="100"></COLUMN>
+    <COLUMN Name="CompanyName" Caption="CompanyName" Index="9" BandIndex="0" RowIndex="0" ColIndex="9" Width="100"></COLUMN>
+    <COLUMN Name="Component_Kind" Caption="Component Kind" Index="10" BandIndex="0" RowIndex="0" ColIndex="10" Width="100"></COLUMN>
+    <COLUMN Name="ComponentKind" Caption="ComponentKind" Index="11" BandIndex="0" RowIndex="0" ColIndex="11" Width="100"></COLUMN>
+    <COLUMN Name="ComponentLink1Description" Caption="ComponentLink1Description" Index="12" BandIndex="0" RowIndex="0" ColIndex="12" Width="100"></COLUMN>
+    <COLUMN Name="ComponentLink1URL" Caption="ComponentLink1URL" Index="13" BandIndex="0" RowIndex="0" ColIndex="13" Width="100"></COLUMN>
+    <COLUMN Name="ComponentLink2Description" Caption="ComponentLink2Description" Index="14" BandIndex="0" RowIndex="0" ColIndex="14" Width="100"></COLUMN>
+    <COLUMN Name="ComponentLink2URL" Caption="ComponentLink2URL" Index="15" BandIndex="0" RowIndex="0" ColIndex="15" Width="100"></COLUMN>
+    <COLUMN Name="CurrentDate" Caption="CurrentDate" Index="16" BandIndex="0" RowIndex="0" ColIndex="16" Width="100"></COLUMN>
+    <COLUMN Name="CurrentTime" Caption="CurrentTime" Index="17" BandIndex="0" RowIndex="0" ColIndex="17" Width="100"></COLUMN>
+    <COLUMN Name="DatasheetVersion" Caption="DatasheetVersion" Index="18" BandIndex="0" RowIndex="0" ColIndex="18" Width="100"></COLUMN>
+    <COLUMN Name="Date" Caption="Date" Index="19" BandIndex="0" RowIndex="0" ColIndex="19" Width="100"></COLUMN>
+    <COLUMN Name="Description" Caption="Description" Index="20" BandIndex="0" RowIndex="0" ColIndex="20" Width="100"></COLUMN>
+    <COLUMN Name="Designator" Caption="Designator" Index="21" BandIndex="0" RowIndex="0" ColIndex="21" Width="100"></COLUMN>
+    <COLUMN Name="Designator_X_Mil_" Caption="Designator-X&#40;Mil&#41;" Index="22" BandIndex="0" RowIndex="0" ColIndex="22" Width="100"></COLUMN>
+    <COLUMN Name="Designator_X_mm_" Caption="Designator-X&#40;mm&#41;" Index="23" BandIndex="0" RowIndex="0" ColIndex="23" Width="100"></COLUMN>
+    <COLUMN Name="Designator_Y_Mil_" Caption="Designator-Y&#40;Mil&#41;" Index="24" BandIndex="0" RowIndex="0" ColIndex="24" Width="100"></COLUMN>
+    <COLUMN Name="Designator_Y_mm_" Caption="Designator-Y&#40;mm&#41;" Index="25" BandIndex="0" RowIndex="0" ColIndex="25" Width="100"></COLUMN>
+    <COLUMN Name="DesignItemId" Caption="DesignItemId" Index="26" BandIndex="0" RowIndex="0" ColIndex="26" Width="100"></COLUMN>
+    <COLUMN Name="Document" Caption="Document" Index="27" BandIndex="0" RowIndex="0" ColIndex="27" Width="100"></COLUMN>
+    <COLUMN Name="DocumentFullPathAndName" Caption="DocumentFullPathAndName" Index="28" BandIndex="0" RowIndex="0" ColIndex="28" Width="100"></COLUMN>
+    <COLUMN Name="DocumentName" Caption="DocumentName" Index="29" BandIndex="0" RowIndex="0" ColIndex="29" Width="100"></COLUMN>
+    <COLUMN Name="DocumentNumber" Caption="DocumentNumber" Index="30" BandIndex="0" RowIndex="0" ColIndex="30" Width="100"></COLUMN>
+    <COLUMN Name="DrawnBy" Caption="DrawnBy" Index="31" BandIndex="0" RowIndex="0" ColIndex="31" Width="100"></COLUMN>
+    <COLUMN Name="Engineer" Caption="Engineer" Index="32" BandIndex="0" RowIndex="0" ColIndex="32" Width="100"></COLUMN>
+    <COLUMN Name="Footprint" Caption="Footprint" Index="33" BandIndex="0" RowIndex="0" ColIndex="33" Width="100"></COLUMN>
+    <COLUMN Name="Height_Mil_" Caption="Height&#40;Mil&#41;" Index="34" BandIndex="0" RowIndex="0" ColIndex="34" Width="100"></COLUMN>
+    <COLUMN Name="Height_mm_" Caption="Height&#40;mm&#41;" Index="35" BandIndex="0" RowIndex="0" ColIndex="35" Width="100"></COLUMN>
+    <COLUMN Name="Ibis_Model" Caption="Ibis Model" Index="36" BandIndex="0" RowIndex="0" ColIndex="36" Width="100"></COLUMN>
+    <COLUMN Name="ImagePath" Caption="ImagePath" Index="37" BandIndex="0" RowIndex="0" ColIndex="37" Width="100"></COLUMN>
+    <COLUMN Name="Index" Caption="Index" Index="38" BandIndex="0" RowIndex="0" ColIndex="38" Width="100"></COLUMN>
+    <COLUMN Name="ItemGUID" Caption="ItemGUID" Index="39" BandIndex="0" RowIndex="0" ColIndex="39" Width="100"></COLUMN>
+    <COLUMN Name="LatestRevisionDate" Caption="LatestRevisionDate" Index="40" BandIndex="0" RowIndex="0" ColIndex="40" Width="100"></COLUMN>
+    <COLUMN Name="LatestRevisionNote" Caption="LatestRevisionNote" Index="41" BandIndex="0" RowIndex="0" ColIndex="41" Width="100"></COLUMN>
+    <COLUMN Name="Library_Name" Caption="Library Name" Index="42" BandIndex="0" RowIndex="0" ColIndex="42" Width="100"></COLUMN>
+    <COLUMN Name="Library_Reference" Caption="Library Reference" Index="43" BandIndex="0" RowIndex="0" ColIndex="43" Width="100"></COLUMN>
+    <COLUMN Name="LibRef" Caption="LibRef" Index="44" BandIndex="0" RowIndex="0" ColIndex="44" Width="100"></COLUMN>
+    <COLUMN Name="LogicalDesignator" Caption="LogicalDesignator" Index="45" BandIndex="0" RowIndex="0" ColIndex="45" Width="100"></COLUMN>
+    <COLUMN Name="LTV847_Datasheet" Caption="LTV847 Datasheet" Index="46" BandIndex="0" RowIndex="0" ColIndex="46" Width="100"></COLUMN>
+    <COLUMN Name="Model_Footprint" Caption="Model:Footprint" Index="47" BandIndex="0" RowIndex="0" ColIndex="47" Width="100"></COLUMN>
+    <COLUMN Name="Model_PCB3D" Caption="Model:PCB3D" Index="48" BandIndex="0" RowIndex="0" ColIndex="48" Width="100"></COLUMN>
+    <COLUMN Name="Model_Signal_Integrity" Caption="Model:Signal Integrity" Index="49" BandIndex="0" RowIndex="0" ColIndex="49" Width="100"></COLUMN>
+    <COLUMN Name="Models" Caption="Models" Index="50" BandIndex="0" RowIndex="0" ColIndex="50" Width="100"></COLUMN>
+    <COLUMN Name="ModifiedDate" Caption="ModifiedDate" Index="51" BandIndex="0" RowIndex="0" ColIndex="51" Width="100"></COLUMN>
+    <COLUMN Name="Organization" Caption="Organization" Index="52" BandIndex="0" RowIndex="0" ColIndex="52" Width="100"></COLUMN>
+    <COLUMN Name="PackageDescription" Caption="PackageDescription" Index="53" BandIndex="0" RowIndex="0" ColIndex="53" Width="100"></COLUMN>
+    <COLUMN Name="PackageReference" Caption="PackageReference" Index="54" BandIndex="0" RowIndex="0" ColIndex="54" Width="100"></COLUMN>
+    <COLUMN Name="PackageVersion" Caption="PackageVersion" Index="55" BandIndex="0" RowIndex="0" ColIndex="55" Width="100"></COLUMN>
+    <COLUMN Name="PartType" Caption="PartType" Index="56" BandIndex="0" RowIndex="0" ColIndex="56" Width="100"></COLUMN>
+    <COLUMN Name="PCB3D" Caption="PCB3D" Index="57" BandIndex="0" RowIndex="0" ColIndex="57" Width="100"></COLUMN>
+    <COLUMN Name="PhysicalPath" Caption="PhysicalPath" Index="58" BandIndex="0" RowIndex="0" ColIndex="58" Width="100"></COLUMN>
+    <COLUMN Name="Pins" Caption="Pins" Index="59" BandIndex="0" RowIndex="0" ColIndex="59" Width="100"></COLUMN>
+    <COLUMN Name="Project" Caption="Project" Index="60" BandIndex="0" RowIndex="0" ColIndex="60" Width="100"></COLUMN>
+    <COLUMN Name="ProjectName" Caption="ProjectName" Index="61" BandIndex="0" RowIndex="0" ColIndex="61" Width="100"></COLUMN>
+    <COLUMN Name="Published" Caption="Published" Index="62" BandIndex="0" RowIndex="0" ColIndex="62" Width="100"></COLUMN>
+    <COLUMN Name="Publisher" Caption="Publisher" Index="63" BandIndex="0" RowIndex="0" ColIndex="63" Width="100"></COLUMN>
+    <COLUMN Name="Quantity" Caption="Quantity" Index="64" BandIndex="0" RowIndex="0" ColIndex="64" Width="100"></COLUMN>
+    <COLUMN Name="Revision" Caption="Revision" Index="65" BandIndex="0" RowIndex="0" ColIndex="65" Width="100"></COLUMN>
+    <COLUMN Name="RevisionGUID" Caption="RevisionGUID" Index="66" BandIndex="0" RowIndex="0" ColIndex="66" Width="100"></COLUMN>
+    <COLUMN Name="Rule" Caption="Rule" Index="67" BandIndex="0" RowIndex="0" ColIndex="67" Width="100"></COLUMN>
+    <COLUMN Name="SheetNumber" Caption="SheetNumber" Index="68" BandIndex="0" RowIndex="0" ColIndex="68" Width="100"></COLUMN>
+    <COLUMN Name="SheetTotal" Caption="SheetTotal" Index="69" BandIndex="0" RowIndex="0" ColIndex="69" Width="100"></COLUMN>
+    <COLUMN Name="Signal_Integrity" Caption="Signal Integrity" Index="70" BandIndex="0" RowIndex="0" ColIndex="70" Width="100"></COLUMN>
+    <COLUMN Name="Simulation" Caption="Simulation" Index="71" BandIndex="0" RowIndex="0" ColIndex="71" Width="100"></COLUMN>
+    <COLUMN Name="SourceLibraryName" Caption="SourceLibraryName" Index="72" BandIndex="0" RowIndex="0" ColIndex="72" Width="100"></COLUMN>
+    <COLUMN Name="Sub_Parts" Caption="Sub-Parts" Index="73" BandIndex="0" RowIndex="0" ColIndex="73" Width="100"></COLUMN>
+    <COLUMN Name="Time" Caption="Time" Index="74" BandIndex="0" RowIndex="0" ColIndex="74" Width="100"></COLUMN>
+    <COLUMN Name="Title" Caption="Title" Index="75" BandIndex="0" RowIndex="0" ColIndex="75" Width="100"></COLUMN>
+    <COLUMN Name="UniqueIdName" Caption="UniqueIdName" Index="76" BandIndex="0" RowIndex="0" ColIndex="76" Width="100"></COLUMN>
+    <COLUMN Name="UniqueIdPath" Caption="UniqueIdPath" Index="77" BandIndex="0" RowIndex="0" ColIndex="77" Width="100"></COLUMN>
+    <COLUMN Name="Variant" Caption="Variant" Index="78" BandIndex="0" RowIndex="0" ColIndex="78" Width="100"></COLUMN>
+    <COLUMN Name="VaultGUID" Caption="VaultGUID" Index="79" BandIndex="0" RowIndex="0" ColIndex="79" Width="100"></COLUMN>
+  </COLUMNS>
+  <ROWS>
+    <ROW Address1="" Address2="" Address3="" Address4="" ApprovedBy="" Author="" CheckedBy="" Code_JEDEC="" Comment="0.01mF" CompanyName="" Component_Kind="Standard" ComponentKind="0" ComponentLink1Description="" ComponentLink1URL="" ComponentLink2Description="" ComponentLink2URL="" CurrentDate="13.12.2013" CurrentTime="0:18:30" DatasheetVersion="" Date="" Description="Capacitor" Designator="C1" Designator_X_Mil_="1663.544" Designator_X_mm_="42.254" Designator_Y_Mil_="6347.012" Designator_Y_mm_="161.214" DesignItemId="Cap" Document="D:&#92;_Disk&#92;15Tb&#92;&#1069;&#1083;&#1077;&#1082;&#1090;&#1088;&#1086; &#1089;&#1093;&#1077;&#1084;&#1099;&#92;Rack Servers Control System&#92;MainBlock.SchDoc" DocumentFullPathAndName="D:&#92;_Disk&#92;15Tb&#92;&#1069;&#1083;&#1077;&#1082;&#1090;&#1088;&#1086; &#1089;&#1093;&#1077;&#1084;&#1099;&#92;Rack Servers Control System&#92;MainBlock.SchDoc" DocumentName="MainBlock.SchDoc" DocumentNumber="" DrawnBy="" Engineer="" Footprint="Cap &#40;3p&#41;" Height_Mil_="0" Height_mm_="0" Ibis_Model="" ImagePath="" Index="1" ItemGUID="" LatestRevisionDate="" LatestRevisionNote="" Library_Name="bj Lib.SchLib" Library_Reference="Cap" LibRef="Cap" LogicalDesignator="C1" LTV847_Datasheet="" Model_Footprint="" Model_PCB3D="" Model_Signal_Integrity="" Models="2" ModifiedDate="13.12.2013" Organization="" PackageDescription="" PackageReference="" PackageVersion="" PartType="0.01mF" PCB3D="" PhysicalPath="MainBlock" Pins="2" Project="D:&#92;_Disk&#92;15Tb&#92;&#1069;&#1083;&#1077;&#1082;&#1090;&#1088;&#1086; &#1089;&#1093;&#1077;&#1084;&#1099;&#92;Rack Servers Control System&#92;ServersControl.PrjPcb" ProjectName="ServersControl.PrjPcb" Published="" Publisher="" Quantity="1" Revision="" RevisionGUID="" Rule="" SheetNumber="" SheetTotal="2" Signal_Integrity="" Simulation="" SourceLibraryName="bj Lib.SchLib" Sub_Parts="1" Time="" Title="" UniqueIdName="UDCWOKGU" UniqueIdPath="" Variant="" VaultGUID=""></ROW>
+    <ROW Address1="" Address2="" Address3="" Address4="" ApprovedBy="" Author="" CheckedBy="" Code_JEDEC="" Comment="Connector" CompanyName="" Component_Kind="Standard" ComponentKind="0" ComponentLink1Description="" ComponentLink1URL="" ComponentLink2Description="" ComponentLink2URL="" CurrentDate="13.12.2013" CurrentTime="0:18:30" DatasheetVersion="" Date="" Description="8pin Connector" Designator="J1" Designator_X_Mil_="314.962" Designator_X_mm_="8" Designator_Y_Mil_="7086.612" Designator_Y_mm_="180" DesignItemId="Connector &#40; 8 pin &#41;" Document="D:&#92;_Disk&#92;15Tb&#92;&#1069;&#1083;&#1077;&#1082;&#1090;&#1088;&#1086; &#1089;&#1093;&#1077;&#1084;&#1099;&#92;Rack Servers Control System&#92;MainBlock.SchDoc" DocumentFullPathAndName="D:&#92;_Disk&#92;15Tb&#92;&#1069;&#1083;&#1077;&#1082;&#1090;&#1088;&#1086; &#1089;&#1093;&#1077;&#1084;&#1099;&#92;Rack Servers Control System&#92;MainBlock.SchDoc" DocumentName="MainBlock.SchDoc" DocumentNumber="" DrawnBy="" Engineer="" Footprint="Line 2.54 x 8" Height_Mil_="0" Height_mm_="0" Ibis_Model="" ImagePath="" Index="2" ItemGUID="" LatestRevisionDate="" LatestRevisionNote="" Library_Name="bj Lib.SchLib" Library_Reference="Connector &#40; 8 pin &#41;" LibRef="Connector &#40; 8 pin &#41;" LogicalDesignator="J1" LTV847_Datasheet="" Model_Footprint="" Model_PCB3D="" Model_Signal_Integrity="" Models="1" ModifiedDate="13.12.2013" Organization="" PackageDescription="" PackageReference="" PackageVersion="" PartType="Connector" PCB3D="" PhysicalPath="MainBlock" Pins="8" Project="D:&#92;_Disk&#92;15Tb&#92;&#1069;&#1083;&#1077;&#1082;&#1090;&#1088;&#1086; &#1089;&#1093;&#1077;&#1084;&#1099;&#92;Rack Servers Control System&#92;ServersControl.PrjPcb" ProjectName="ServersControl.PrjPcb" Published="" Publisher="" Quantity="1" Revision="" RevisionGUID="" Rule="" SheetNumber="" SheetTotal="2" Signal_Integrity="" Simulation="" SourceLibraryName="bj Lib.SchLib" Sub_Parts="1" Time="" Title="" UniqueIdName="HKQFAPIU" UniqueIdPath="" Variant="" VaultGUID=""></ROW>
+    <ROW Address1="" Address2="" Address3="" Address4="" ApprovedBy="" Author="" CheckedBy="" Code_JEDEC="" Comment="Connector" CompanyName="" Component_Kind="Standard" ComponentKind="0" ComponentLink1Description="" ComponentLink1URL="" ComponentLink2Description="" ComponentLink2URL="" CurrentDate="13.12.2013" CurrentTime="0:18:30" DatasheetVersion="" Date="" Description="8pin Connector" Designator="J2" Designator_X_Mil_="314.962" Designator_X_mm_="8" Designator_Y_Mil_="5629.924" Designator_Y_mm_="143" DesignItemId="Connector &#40; 2 pin &#41;" Document="D:&#92;_Disk&#92;15Tb&#92;&#1069;&#1083;&#1077;&#1082;&#1090;&#1088;&#1086; &#1089;&#1093;&#1077;&#1084;&#1099;&#92;Rack Servers Control System&#92;MainBlock.SchDoc" DocumentFullPathAndName="D:&#92;_Disk&#92;15Tb&#92;&#1069;&#1083;&#1077;&#1082;&#1090;&#1088;&#1086; &#1089;&#1093;&#1077;&#1084;&#1099;&#92;Rack Servers Control System&#92;MainBlock.SchDoc" DocumentName="MainBlock.SchDoc" DocumentNumber="" DrawnBy="" Engineer="" Footprint="Line 2.54 x 2" Height_Mil_="0" Height_mm_="0" Ibis_Model="" ImagePath="" Index="3" ItemGUID="" LatestRevisionDate="" LatestRevisionNote="" Library_Name="bj Lib.SchLib" Library_Reference="Connector &#40; 2 pin &#41;" LibRef="Connector &#40; 2 pin &#41;" LogicalDesignator="J2" LTV847_Datasheet="" Model_Footprint="" Model_PCB3D="PCB3D Model" Model_Signal_Integrity="" Models="2" ModifiedDate="13.12.2013" Organization="" PackageDescription="" PackageReference="" PackageVersion="" PartType="Connector" PCB3D="pin_header_aw140-eg-g02d" PhysicalPath="MainBlock" Pins="2" Project="D:&#92;_Disk&#92;15Tb&#92;&#1069;&#1083;&#1077;&#1082;&#1090;&#1088;&#1086; &#1089;&#1093;&#1077;&#1084;&#1099;&#92;Rack Servers Control System&#92;ServersControl.PrjPcb" ProjectName="ServersControl.PrjPcb" Published="" Publisher="" Quantity="1" Revision="" RevisionGUID="" Rule="" SheetNumber="" SheetTotal="2" Signal_Integrity="" Simulation="" SourceLibraryName="bj Lib.SchLib" Sub_Parts="1" Time="" Title="" UniqueIdName="BTURFCNT" UniqueIdPath="" Variant="" VaultGUID=""></ROW>
+    <ROW Address1="" Address2="" Address3="" Address4="" ApprovedBy="" Author="" CheckedBy="" Code_JEDEC="" Comment="330 Om" CompanyName="" Component_Kind="Standard" ComponentKind="0" ComponentLink1Description="" ComponentLink1URL="" ComponentLink2Description="" ComponentLink2URL="" CurrentDate="13.12.2013" CurrentTime="0:18:30" DatasheetVersion="" Date="" Description="" Designator="R1" Designator_X_Mil_="4753.783" Designator_X_mm_="120.746" Designator_Y_Mil_="6860.398" Designator_Y_mm_="174.254" DesignItemId="Resistor" Document="D:&#92;_Disk&#92;15Tb&#92;&#1069;&#1083;&#1077;&#1082;&#1090;&#1088;&#1086; &#1089;&#1093;&#1077;&#1084;&#1099;&#92;Rack Servers Control System&#92;MainBlock.SchDoc" DocumentFullPathAndName="D:&#92;_Disk&#92;15Tb&#92;&#1069;&#1083;&#1077;&#1082;&#1090;&#1088;&#1086; &#1089;&#1093;&#1077;&#1084;&#1099;&#92;Rack Servers Control System&#92;MainBlock.SchDoc" DocumentName="MainBlock.SchDoc" DocumentNumber="" DrawnBy="" Engineer="" Footprint="Res p7.62 &#40;4p&#41;" Height_Mil_="0" Height_mm_="0" Ibis_Model="" ImagePath="" Index="4" ItemGUID="" LatestRevisionDate="" LatestRevisionNote="" Library_Name="bj Lib.SchLib" Library_Reference="Resistor" LibRef="Resistor" LogicalDesignator="R1" LTV847_Datasheet="" Model_Footprint="L p7.62; horisontal" Model_PCB3D="" Model_Signal_Integrity="" Models="4" ModifiedDate="13.12.2013" Organization="" PackageDescription="" PackageReference="" PackageVersion="" PartType="330 Om" PCB3D="" PhysicalPath="MainBlock" Pins="2" Project="D:&#92;_Disk&#92;15Tb&#92;&#1069;&#1083;&#1077;&#1082;&#1090;&#1088;&#1086; &#1089;&#1093;&#1077;&#1084;&#1099;&#92;Rack Servers Control System&#92;ServersControl.PrjPcb" ProjectName="ServersControl.PrjPcb" Published="" Publisher="" Quantity="1" Revision="" RevisionGUID="" Rule="" SheetNumber="" SheetTotal="2" Signal_Integrity="" Simulation="" SourceLibraryName="bj Lib.SchLib" Sub_Parts="1" Time="" Title="" UniqueIdName="AOSXGTXT" UniqueIdPath="" Variant="" VaultGUID=""></ROW>
+    <ROW Address1="" Address2="" Address3="" Address4="" ApprovedBy="" Author="" CheckedBy="" Code_JEDEC="" Comment="330 Om" CompanyName="" Component_Kind="Standard" ComponentKind="0" ComponentLink1Description="" ComponentLink1URL="" ComponentLink2Description="" ComponentLink2URL="" CurrentDate="13.12.2013" CurrentTime="0:18:30" DatasheetVersion="" Date="" Description="" Designator="R2" Designator_X_Mil_="4753.783" Designator_X_mm_="120.746" Designator_Y_Mil_="6584.808" Designator_Y_mm_="167.254" DesignItemId="Resistor" Document="D:&#92;_Disk&#92;15Tb&#92;&#1069;&#1083;&#1077;&#1082;&#1090;&#1088;&#1086; &#1089;&#1093;&#1077;&#1084;&#1099;&#92;Rack Servers Control System&#92;MainBlock.SchDoc" DocumentFullPathAndName="D:&#92;_Disk&#92;15Tb&#92;&#1069;&#1083;&#1077;&#1082;&#1090;&#1088;&#1086; &#1089;&#1093;&#1077;&#1084;&#1099;&#92;Rack Servers Control System&#92;MainBlock.SchDoc" DocumentName="MainBlock.SchDoc" DocumentNumber="" DrawnBy="" Engineer="" Footprint="Res p7.62 &#40;4p&#41;" Height_Mil_="0" Height_mm_="0" Ibis_Model="" ImagePath="" Index="5" ItemGUID="" LatestRevisionDate="" LatestRevisionNote="" Library_Name="bj Lib.SchLib" Library_Reference="Resistor" LibRef="Resistor" LogicalDesignator="R2" LTV847_Datasheet="" Model_Footprint="L p7.62; horisontal" Model_PCB3D="" Model_Signal_Integrity="" Models="4" ModifiedDate="13.12.2013" Organization="" PackageDescription="" PackageReference="" PackageVersion="" PartType="330 Om" PCB3D="" PhysicalPath="MainBlock" Pins="2" Project="D:&#92;_Disk&#92;15Tb&#92;&#1069;&#1083;&#1077;&#1082;&#1090;&#1088;&#1086; &#1089;&#1093;&#1077;&#1084;&#1099;&#92;Rack Servers Control System&#92;ServersControl.PrjPcb" ProjectName="ServersControl.PrjPcb" Published="" Publisher="" Quantity="1" Revision="" RevisionGUID="" Rule="" SheetNumber="" SheetTotal="2" Signal_Integrity="" Simulation="" SourceLibraryName="bj Lib.SchLib" Sub_Parts="1" Time="" Title="" UniqueIdName="RTDBQCWI" UniqueIdPath="" Variant="" VaultGUID=""></ROW>
+    <ROW Address1="" Address2="" Address3="" Address4="" ApprovedBy="" Author="" CheckedBy="" Code_JEDEC="" Comment="330 Om" CompanyName="" Component_Kind="Standard" ComponentKind="0" ComponentLink1Description="" ComponentLink1URL="" ComponentLink2Description="" ComponentLink2URL="" CurrentDate="13.12.2013" CurrentTime="0:18:30" DatasheetVersion="" Date="" Description="" Designator="R3" Designator_X_Mil_="4753.783" Designator_X_mm_="120.746" Designator_Y_Mil_="6309.218" Designator_Y_mm_="160.254" DesignItemId="Resistor" Document="D:&#92;_Disk&#92;15Tb&#92;&#1069;&#1083;&#1077;&#1082;&#1090;&#1088;&#1086; &#1089;&#1093;&#1077;&#1084;&#1099;&#92;Rack Servers Control System&#92;MainBlock.SchDoc" DocumentFullPathAndName="D:&#92;_Disk&#92;15Tb&#92;&#1069;&#1083;&#1077;&#1082;&#1090;&#1088;&#1086; &#1089;&#1093;&#1077;&#1084;&#1099;&#92;Rack Servers Control System&#92;MainBlock.SchDoc" DocumentName="MainBlock.SchDoc" DocumentNumber="" DrawnBy="" Engineer="" Footprint="Res p7.62 &#40;4p&#41;" Height_Mil_="0" Height_mm_="0" Ibis_Model="" ImagePath="" Index="6" ItemGUID="" LatestRevisionDate="" LatestRevisionNote="" Library_Name="bj Lib.SchLib" Library_Reference="Resistor" LibRef="Resistor" LogicalDesignator="R3" LTV847_Datasheet="" Model_Footprint="L p7.62; horisontal" Model_PCB3D="" Model_Signal_Integrity="" Models="4" ModifiedDate="13.12.2013" Organization="" PackageDescription="" PackageReference="" PackageVersion="" PartType="330 Om" PCB3D="" PhysicalPath="MainBlock" Pins="2" Project="D:&#92;_Disk&#92;15Tb&#92;&#1069;&#1083;&#1077;&#1082;&#1090;&#1088;&#1086; &#1089;&#1093;&#1077;&#1084;&#1099;&#92;Rack Servers Control System&#92;ServersControl.PrjPcb" ProjectName="ServersControl.PrjPcb" Published="" Publisher="" Quantity="1" Revision="" RevisionGUID="" Rule="" SheetNumber="" SheetTotal="2" Signal_Integrity="" Simulation="" SourceLibraryName="bj Lib.SchLib" Sub_Parts="1" Time="" Title="" UniqueIdName="MXNJPUXY" UniqueIdPath="" Variant="" VaultGUID=""></ROW>
+    <ROW Address1="" Address2="" Address3="" Address4="" ApprovedBy="" Author="" CheckedBy="" Code_JEDEC="" Comment="330 Om" CompanyName="" Component_Kind="Standard" ComponentKind="0" ComponentLink1Description="" ComponentLink1URL="" ComponentLink2Description="" ComponentLink2URL="" CurrentDate="13.12.2013" CurrentTime="0:18:30" DatasheetVersion="" Date="" Description="" Designator="R4" Designator_X_Mil_="4753.783" Designator_X_mm_="120.746" Designator_Y_Mil_="6033.628" Designator_Y_mm_="153.254" DesignItemId="Resistor" Document="D:&#92;_Disk&#92;15Tb&#92;&#1069;&#1083;&#1077;&#1082;&#1090;&#1088;&#1086; &#1089;&#1093;&#1077;&#1084;&#1099;&#92;Rack Servers Control System&#92;MainBlock.SchDoc" DocumentFullPathAndName="D:&#92;_Disk&#92;15Tb&#92;&#1069;&#1083;&#1077;&#1082;&#1090;&#1088;&#1086; &#1089;&#1093;&#1077;&#1084;&#1099;&#92;Rack Servers Control System&#92;MainBlock.SchDoc" DocumentName="MainBlock.SchDoc" DocumentNumber="" DrawnBy="" Engineer="" Footprint="Res p7.62 &#40;4p&#41;" Height_Mil_="0" Height_mm_="0" Ibis_Model="" ImagePath="" Index="7" ItemGUID="" LatestRevisionDate="" LatestRevisionNote="" Library_Name="bj Lib.SchLib" Library_Reference="Resistor" LibRef="Resistor" LogicalDesignator="R4" LTV847_Datasheet="" Model_Footprint="L p7.62; horisontal" Model_PCB3D="" Model_Signal_Integrity="" Models="4" ModifiedDate="13.12.2013" Organization="" PackageDescription="" PackageReference="" PackageVersion="" PartType="330 Om" PCB3D="" PhysicalPath="MainBlock" Pins="2" Project="D:&#92;_Disk&#92;15Tb&#92;&#1069;&#1083;&#1077;&#1082;&#1090;&#1088;&#1086; &#1089;&#1093;&#1077;&#1084;&#1099;&#92;Rack Servers Control System&#92;ServersControl.PrjPcb" ProjectName="ServersControl.PrjPcb" Published="" Publisher="" Quantity="1" Revision="" RevisionGUID="" Rule="" SheetNumber="" SheetTotal="2" Signal_Integrity="" Simulation="" SourceLibraryName="bj Lib.SchLib" Sub_Parts="1" Time="" Title="" UniqueIdName="TAAOBSGI" UniqueIdPath="" Variant="" VaultGUID=""></ROW>
+    <ROW Address1="" Address2="" Address3="" Address4="" ApprovedBy="" Author="" CheckedBy="" Code_JEDEC="MS-001-BB" Comment="SN74HC595N" CompanyName="" Component_Kind="Standard" ComponentKind="0" ComponentLink1Description="Manufacturer Link" ComponentLink1URL="http://www.ti.com/" ComponentLink2Description="Datasheet" ComponentLink2URL="http://www-s.ti.com/sc/ds/sn74hc595.pdf" CurrentDate="13.12.2013" CurrentTime="0:18:30" DatasheetVersion="May-1997" Date="" Description="8-Bit Shift Register with 3-State Output Registers" Designator="U1" Designator_X_Mil_="2401.573" Designator_X_mm_="61" Designator_Y_Mil_="7125.985" Designator_Y_mm_="181" DesignItemId="SN74HC595N" Document="D:&#92;_Disk&#92;15Tb&#92;&#1069;&#1083;&#1077;&#1082;&#1090;&#1088;&#1086; &#1089;&#1093;&#1077;&#1084;&#1099;&#92;Rack Servers Control System&#92;MainBlock.SchDoc" DocumentFullPathAndName="D:&#92;_Disk&#92;15Tb&#92;&#1069;&#1083;&#1077;&#1082;&#1090;&#1088;&#1086; &#1089;&#1093;&#1077;&#1084;&#1099;&#92;Rack Servers Control System&#92;MainBlock.SchDoc" DocumentName="MainBlock.SchDoc" DocumentNumber="" DrawnBy="" Engineer="" Footprint="DIP16" Height_Mil_="0" Height_mm_="0" Ibis_Model="" ImagePath="" Index="8" ItemGUID="" LatestRevisionDate="04-Mar-2005" LatestRevisionNote="Stylized 3D Model Added." Library_Name="bj Lib.SchLib" Library_Reference="SN74HC595N" LibRef="SN74HC595N" LogicalDesignator="U1" LTV847_Datasheet="" Model_Footprint="DIP; 16 Leads; Row Spacing 7.62 mm; Pitch 2.54 mm" Model_PCB3D="PCB3D Model" Model_Signal_Integrity="" Models="3" ModifiedDate="13.12.2013" Organization="" PackageDescription="DIP; 16 Leads; Row Spacing 7.62 mm; Pitch 2.54 mm" PackageReference="N016" PackageVersion="Oct-1995" PartType="SN74HC595N" PCB3D="DIP16" PhysicalPath="MainBlock" Pins="16" Project="D:&#92;_Disk&#92;15Tb&#92;&#1069;&#1083;&#1077;&#1082;&#1090;&#1088;&#1086; &#1089;&#1093;&#1077;&#1084;&#1099;&#92;Rack Servers Control System&#92;ServersControl.PrjPcb" ProjectName="ServersControl.PrjPcb" Published="8-Jun-2000" Publisher="Altium Limited" Quantity="1" Revision="" RevisionGUID="" Rule="" SheetNumber="" SheetTotal="2" Signal_Integrity="SN74HC595N" Simulation="" SourceLibraryName="bj Lib.SchLib" Sub_Parts="1" Time="" Title="" UniqueIdName="UOFIFCIC" UniqueIdPath="" Variant="" VaultGUID=""></ROW>
+    <ROW Address1="" Address2="" Address3="" Address4="" ApprovedBy="" Author="" CheckedBy="" Code_JEDEC="MS-001-BB" Comment="SN74HC595N" CompanyName="" Component_Kind="Standard" ComponentKind="0" ComponentLink1Description="Manufacturer Link" ComponentLink1URL="http://www.ti.com/" ComponentLink2Description="Datasheet" ComponentLink2URL="http://www-s.ti.com/sc/ds/sn74hc595.pdf" CurrentDate="13.12.2013" CurrentTime="0:18:30" DatasheetVersion="May-1997" Date="" Description="8-Bit Shift Register with 3-State Output Registers" Designator="U2" Designator_X_Mil_="2401.576" Designator_X_mm_="61" Designator_Y_Mil_="5472.444" Designator_Y_mm_="139" DesignItemId="SN74HC595N" Document="D:&#92;_Disk&#92;15Tb&#92;&#1069;&#1083;&#1077;&#1082;&#1090;&#1088;&#1086; &#1089;&#1093;&#1077;&#1084;&#1099;&#92;Rack Servers Control System&#92;MainBlock.SchDoc" DocumentFullPathAndName="D:&#92;_Disk&#92;15Tb&#92;&#1069;&#1083;&#1077;&#1082;&#1090;&#1088;&#1086; &#1089;&#1093;&#1077;&#1084;&#1099;&#92;Rack Servers Control System&#92;MainBlock.SchDoc" DocumentName="MainBlock.SchDoc" DocumentNumber="" DrawnBy="" Engineer="" Footprint="DIP16" Height_Mil_="0" Height_mm_="0" Ibis_Model="" ImagePath="" Index="9" ItemGUID="" LatestRevisionDate="04-Mar-2005" LatestRevisionNote="Stylized 3D Model Added." Library_Name="bj Lib.SchLib" Library_Reference="SN74HC595N" LibRef="SN74HC595N" LogicalDesignator="U2" LTV847_Datasheet="" Model_Footprint="DIP; 16 Leads; Row Spacing 7.62 mm; Pitch 2.54 mm" Model_PCB3D="PCB3D Model" Model_Signal_Integrity="" Models="3" ModifiedDate="13.12.2013" Organization="" PackageDescription="DIP; 16 Leads; Row Spacing 7.62 mm; Pitch 2.54 mm" PackageReference="N016" PackageVersion="Oct-1995" PartType="SN74HC595N" PCB3D="DIP16" PhysicalPath="MainBlock" Pins="16" Project="D:&#92;_Disk&#92;15Tb&#92;&#1069;&#1083;&#1077;&#1082;&#1090;&#1088;&#1086; &#1089;&#1093;&#1077;&#1084;&#1099;&#92;Rack Servers Control System&#92;ServersControl.PrjPcb" ProjectName="ServersControl.PrjPcb" Published="8-Jun-2000" Publisher="Altium Limited" Quantity="1" Revision="" RevisionGUID="" Rule="" SheetNumber="" SheetTotal="2" Signal_Integrity="SN74HC595N" Simulation="" SourceLibraryName="bj Lib.SchLib" Sub_Parts="1" Time="" Title="" UniqueIdName="JACVGUGM" UniqueIdPath="" Variant="" VaultGUID=""></ROW>
+    <ROW Address1="" Address2="" Address3="" Address4="" ApprovedBy="" Author="" CheckedBy="" Code_JEDEC="MS-001-BB" Comment="SN74HC595N" CompanyName="" Component_Kind="Standard" ComponentKind="0" ComponentLink1Description="Manufacturer Link" ComponentLink1URL="http://www.ti.com/" ComponentLink2Description="Datasheet" ComponentLink2URL="http://www-s.ti.com/sc/ds/sn74hc595.pdf" CurrentDate="13.12.2013" CurrentTime="0:18:30" DatasheetVersion="May-1997" Date="" Description="8-Bit Shift Register with 3-State Output Registers" Designator="U3" Designator_X_Mil_="2401.576" Designator_X_mm_="61" Designator_Y_Mil_="3818.9" Designator_Y_mm_="97" DesignItemId="SN74HC595N" Document="D:&#92;_Disk&#92;15Tb&#92;&#1069;&#1083;&#1077;&#1082;&#1090;&#1088;&#1086; &#1089;&#1093;&#1077;&#1084;&#1099;&#92;Rack Servers Control System&#92;MainBlock.SchDoc" DocumentFullPathAndName="D:&#92;_Disk&#92;15Tb&#92;&#1069;&#1083;&#1077;&#1082;&#1090;&#1088;&#1086; &#1089;&#1093;&#1077;&#1084;&#1099;&#92;Rack Servers Control System&#92;MainBlock.SchDoc" DocumentName="MainBlock.SchDoc" DocumentNumber="" DrawnBy="" Engineer="" Footprint="DIP16" Height_Mil_="0" Height_mm_="0" Ibis_Model="" ImagePath="" Index="10" ItemGUID="" LatestRevisionDate="04-Mar-2005" LatestRevisionNote="Stylized 3D Model Added." Library_Name="bj Lib.SchLib" Library_Reference="SN74HC595N" LibRef="SN74HC595N" LogicalDesignator="U3" LTV847_Datasheet="" Model_Footprint="DIP; 16 Leads; Row Spacing 7.62 mm; Pitch 2.54 mm" Model_PCB3D="PCB3D Model" Model_Signal_Integrity="" Models="3" ModifiedDate="13.12.2013" Organization="" PackageDescription="DIP; 16 Leads; Row Spacing 7.62 mm; Pitch 2.54 mm" PackageReference="N016" PackageVersion="Oct-1995" PartType="SN74HC595N" PCB3D="DIP16" PhysicalPath="MainBlock" Pins="16" Project="D:&#92;_Disk&#92;15Tb&#92;&#1069;&#1083;&#1077;&#1082;&#1090;&#1088;&#1086; &#1089;&#1093;&#1077;&#1084;&#1099;&#92;Rack Servers Control System&#92;ServersControl.PrjPcb" ProjectName="ServersControl.PrjPcb" Published="8-Jun-2000" Publisher="Altium Limited" Quantity="1" Revision="" RevisionGUID="" Rule="" SheetNumber="" SheetTotal="2" Signal_Integrity="SN74HC595N" Simulation="" SourceLibraryName="bj Lib.SchLib" Sub_Parts="1" Time="" Title="" UniqueIdName="KVYRLQCI" UniqueIdPath="" Variant="" VaultGUID=""></ROW>
+    <ROW Address1="" Address2="" Address3="" Address4="" ApprovedBy="" Author="" CheckedBy="" Code_JEDEC="" Comment="Optocouplier" CompanyName="" Component_Kind="Standard" ComponentKind="0" ComponentLink1Description="" ComponentLink1URL="" ComponentLink2Description="" ComponentLink2URL="" CurrentDate="13.12.2013" CurrentTime="0:18:30" DatasheetVersion="" Date="" Description="4x channel" Designator="U4" Designator_X_Mil_="5648.35" Designator_X_mm_="143.468" Designator_Y_Mil_="7086.618" Designator_Y_mm_="180" DesignItemId="Optocouplier 4x" Document="D:&#92;_Disk&#92;15Tb&#92;&#1069;&#1083;&#1077;&#1082;&#1090;&#1088;&#1086; &#1089;&#1093;&#1077;&#1084;&#1099;&#92;Rack Servers Control System&#92;MainBlock.SchDoc" DocumentFullPathAndName="D:&#92;_Disk&#92;15Tb&#92;&#1069;&#1083;&#1077;&#1082;&#1090;&#1088;&#1086; &#1089;&#1093;&#1077;&#1084;&#1099;&#92;Rack Servers Control System&#92;MainBlock.SchDoc" DocumentName="MainBlock.SchDoc" DocumentNumber="" DrawnBy="" Engineer="" Footprint="DIP16" Height_Mil_="0" Height_mm_="0" Ibis_Model="" ImagePath="" Index="11" ItemGUID="" LatestRevisionDate="" LatestRevisionNote="" Library_Name="bj Lib.SchLib" Library_Reference="Optocouplier 4x" LibRef="Optocouplier 4x" LogicalDesignator="U4" LTV847_Datasheet="http://lib.chipdip.ru/224/DOC000224974.pdf" Model_Footprint="DIP; 16 Leads; Row Spacing 7.62 mm; Pitch 2.54 mm" Model_PCB3D="PCB3D Model" Model_Signal_Integrity="" Models="2" ModifiedDate="13.12.2013" Organization="" PackageDescription="" PackageReference="" PackageVersion="" PartType="Optocouplier" PCB3D="DIP16" PhysicalPath="MainBlock" Pins="16" Project="D:&#92;_Disk&#92;15Tb&#92;&#1069;&#1083;&#1077;&#1082;&#1090;&#1088;&#1086; &#1089;&#1093;&#1077;&#1084;&#1099;&#92;Rack Servers Control System&#92;ServersControl.PrjPcb" ProjectName="ServersControl.PrjPcb" Published="" Publisher="" Quantity="1" Revision="" RevisionGUID="" Rule="" SheetNumber="" SheetTotal="2" Signal_Integrity="" Simulation="" SourceLibraryName="bj Lib.SchLib" Sub_Parts="1" Time="" Title="" UniqueIdName="HSOBCTJI" UniqueIdPath="" Variant="" VaultGUID=""></ROW>
+  </ROWS>
+</GRID>
