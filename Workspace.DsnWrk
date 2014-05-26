@@ -3,4 +3,4 @@ Version=1.0
 [Project1]
 ProjectPath=BMW\BMW F800GS Board\BMW F800GS Board.PrjPcb
 [Project2]
-ProjectPath=Moto\Signal Turn YBR Front\Signal Turn YBR Front.PrjPcb
+ProjectPath=Sensor\PIR Sensor driver\PIR Sensor driver.PrjPcb
