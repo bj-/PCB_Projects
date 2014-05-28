@@ -4,3 +4,5 @@ Version=1.0
 ProjectPath=BMW\BMW F800GS Board\BMW F800GS Board.PrjPcb
 [Project2]
 ProjectPath=Sensor\PIR Sensor driver\PIR Sensor driver.PrjPcb
+[Project3]
+ProjectPath=Sensor\PIR Sensor driver v2\PIR Sensor driver v2.PrjPcb
