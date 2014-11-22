@@ -4,3 +4,5 @@ Version=1.0
 ProjectPath=Sensor\PIR Sensor driver v3\PIR Sensor driver v3.PrjPcb
 [Project2]
 ProjectPath=Truck Emulator\Track_Emulator.PrjPcb
+[Project3]
+ProjectPath=Relay off Delay\Relay off delay.PrjPcb
