@@ -6,3 +6,7 @@ ProjectPath=Sensor\PIR Sensor driver v3\PIR Sensor driver v3.PrjPcb
 ProjectPath=Truck Emulator\Track_Emulator.PrjPcb
 [Project3]
 ProjectPath=Relay off Delay\Relay off delay.PrjPcb
+[Project4]
+ProjectPath=Power\Power Adjusment\Power Adjusment.PrjPcb
+[Project5]
+ProjectPath=BMW\BMW F800GS Board\BMW F800GS Board.PrjPcb
