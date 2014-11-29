@@ -10,3 +10,7 @@ ProjectPath=Relay off Delay\Relay off delay.PrjPcb
 ProjectPath=Power\Power Adjusment\Power Adjusment.PrjPcb
 [Project5]
 ProjectPath=BMW\BMW F800GS Board\BMW F800GS Board.PrjPcb
+[Project6]
+ProjectPath=Debug and SelfSupport\Atmega8A Dev board\Atmega8a dev board.PrjPcb
+[Project7]
+ProjectPath=Debug and SelfSupport\7Seg LED Display Driver\7Seg LED Display Driver.PrjPcb
