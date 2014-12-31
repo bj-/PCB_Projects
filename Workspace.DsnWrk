@@ -16,3 +16,5 @@ ProjectPath=Debug and SelfSupport\Atmega8A Dev board\Atmega8a dev board.PrjPcb
 ProjectPath=Debug and SelfSupport\7Seg LED Display Driver\7Seg LED Display Driver.PrjPcb
 [Project8]
 ProjectPath=Power\PowerSupply 12v 30A\PowerSupply12v30A.PrjPcb
+[Project9]
+ProjectPath=Moto\F800GS Front DayLight\F800GSDayLight.PrjPcb
