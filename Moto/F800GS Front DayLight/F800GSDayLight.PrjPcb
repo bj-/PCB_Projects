@@ -1081,6 +1081,18 @@ NetClassManualEnabled=1
 [LibraryUpdateOptions]
 SelectedOnly=0
 PartTypes=0
+ComponentLibIdentifierKind0=Library Name And Type
+ComponentLibraryIdentifier0=LED.SchLib
+ComponentDesignItemID0=Led SMD White Cold
+ComponentSymbolReference0=Led SMD White Cold
+ComponentUpdate0=1
+ComponentIsDeviceSheet0=0
+ComponentLibIdentifierKind1=Library Name And Type
+ComponentLibraryIdentifier1=PassiveComponents.SchLib
+ComponentDesignItemID1=Res All Types
+ComponentSymbolReference1=Res All Types
+ComponentUpdate1=0
+ComponentIsDeviceSheet1=0
 FullReplace=1
 UpdateDesignatorLock=1
 UpdatePartIDLock=1
@@ -1093,6 +1105,83 @@ RemoveParameters=0
 AddModels=1
 RemoveModels=1
 UpdateCurrentModels=1
+ParameterName0=Color
+ParameterUpdate0=1
+ParameterName1=Comment
+ParameterUpdate1=1
+ParameterName2=Component Kind
+ParameterUpdate2=1
+ParameterName3=Description
+ParameterUpdate3=1
+ParameterName4=Forward Amp (mA)
+ParameterUpdate4=1
+ParameterName5=Forward Voltage Min
+ParameterUpdate5=1
+ParameterName6=Forward Voltage TYP
+ParameterUpdate6=1
+ParameterName7=Library Reference
+ParameterUpdate7=1
+ParameterName8=Liminous Min (mcd)
+ParameterUpdate8=1
+ParameterName9=Liminous Typ (mcd)
+ParameterUpdate9=1
+ParameterName10=Resistor for 5v VCC
+ParameterUpdate10=1
+ParameterName11=Wave len min/typ
+ParameterUpdate11=1
+ModelTypeGroup0=PCBLIB
+ModelTypeUpdate0=1
+ModelType0=PCBLIB
+ModelName0=LED SMD 0603 White
+ModelUpdate0=1
+ModelType1=PCBLIB
+ModelName1=LED SMD 1206 White
+ModelUpdate1=1
+ModelType2=PCBLIB
+ModelName2=LED SMD 3528 White
+ModelUpdate2=1
+ModelType3=PCBLIB
+ModelName3=LED SMD 5050 White compact R
+ModelUpdate3=1
+ModelType4=PCBLIB
+ModelName4=Res 0.25w - 5p
+ModelUpdate4=1
+ModelType5=PCBLIB
+ModelName5=Res 0.25w - 6p
+ModelUpdate5=1
+ModelType6=PCBLIB
+ModelName6=Res 0.25w - 7p
+ModelUpdate6=1
+ModelType7=PCBLIB
+ModelName7=Res 0.25w - 8p
+ModelUpdate7=1
+ModelType8=PCBLIB
+ModelName8=Res 5W L22mm, p30mm
+ModelUpdate8=1
+ModelType9=PCBLIB
+ModelName9=Res p20.32 (9p) 2w
+ModelUpdate9=1
+ModelType10=PCBLIB
+ModelName10=Res p27.94 W8mm (12p)
+ModelUpdate10=1
+ModelType11=PCBLIB
+ModelName11=Res p5 (3p) 2w
+ModelUpdate11=1
+ModelType12=PCBLIB
+ModelName12=Res p7.62 (4p) 0.25w
+ModelUpdate12=1
+ModelType13=PCBLIB
+ModelName13=Res W5mm (10p)
+ModelUpdate13=1
+ModelType14=PCBLIB
+ModelName14=SMD 0603 (1608)
+ModelUpdate14=1
+ModelType15=PCBLIB
+ModelName15=SMD 0805 (2012)
+ModelUpdate15=1
+ModelType16=PCBLIB
+ModelName16=SMD 1206 (3216)
+ModelUpdate16=1
 
 [DatabaseUpdateOptions]
 SelectedOnly=0
@@ -1105,4 +1194,7 @@ ComparisonOptions2=Kind=Component Class|MinPercent=75|MinMatch=3|ShowMatch=-1|Co
 ComparisonOptions3=Kind=Rule|MinPercent=75|MinMatch=3|ShowMatch=-1|Confirm=-1|UseName=-1|InclAllRules=0
 ComparisonOptions4=Kind=Differential Pair|MinPercent=50|MinMatch=1|ShowMatch=0|Confirm=0|UseName=0|InclAllRules=0
 ComparisonOptions5=Kind=Structure Class|MinPercent=75|MinMatch=3|ShowMatch=-1|Confirm=-1|UseName=-1|InclAllRules=0
+
+[SmartPDF]
+PageOptions=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-4|MediaType=1|DitherType=10|PaperKind=A4|PrintScaleMode=1
 
