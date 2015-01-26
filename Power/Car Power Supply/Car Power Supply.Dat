@@ -1,0 +1,18 @@
+Field=Comment~String~Comment~100|Field=Description~String~Description~100|Field=Designator~String~Designator~100|Field=Footprint~String~Footprint~100|Field=LibRef~String~LibRef~100|Field=Quantity~Integer~Quantity~100|ReportField=Currency~<none>|ReportField=ProductionQuantity~1|ReportField=ProjectFileName~Car Power Supply.PrjPcb|ReportField=ProjectFullPath~D:\GitHub Rep\PCB_Projects\Power\Car Power Supply\Car Power Supply.PrjPcb|ReportField=Title~Bill of Materials For Project [Car Power Supply.PrjPcb] (No PCB Document Selected)|ReportField=TotalQuantity~27|ReportField=ReportTime~20:55:48|ReportField=ReportDate~22.01.2015|ReportField=ReportDateTime~22.01.2015 20:55:48|ReportField=OutputName~Bill of Materials|ReportField=OutputType~BOM_PartType|ReportField=GeneratorName~BOM|ReportField=GeneratorDescription~Bill of Materials|ReportField=VariantName~None|ReportField=Address1~|ReportField=Address2~|ReportField=Address3~|ReportField=Address4~|ReportField=ApprovedBy~|ReportField=Author~|ReportField=CheckedBy~|ReportField=CompanyName~|ReportField=CurrentDate~22.01.2015|ReportField=CurrentTime~20:52:59|ReportField=Date~|ReportField=DocumentFullPathAndName~D:\GitHub Rep\PCB_Projects\Power\Car Power Supply\Car Power Supply.SchDoc|ReportField=DocumentName~Car Power Supply.SchDoc|ReportField=DocumentNumber~|ReportField=DrawnBy~|ReportField=Engineer~|ReportField=ImagePath~|ReportField=ModifiedDate~20.01.2015|ReportField=Organization~|ReportField=ProjectName~Car Power Supply.PrjPcb|ReportField=Revision~|ReportField=Rule~|ReportField=SheetNumber~|ReportField=SheetTotal~|ReportField=Time~|ReportField=Title~|ReportField=DataSourceFileName~Car Power Supply.PrjPcb|ReportField=DataSourceFullPath~D:\GitHub Rep\PCB_Projects\Power\Car Power Supply\Car Power Supply.PrjPcb
+1000uF|Capacitor|C1, C2|Cap E p5.08mm D10.2mm (3p)|Cap E 1000mF x 25V|2
+220uF 16V|Capacitor|C3, C6|Cap E p2mm D6.5xH11|Cap E 220mF x 16V|2
+100n|Capacitor|C4|Cap P5.08MM (3p) disk2|Cap Ceramic|1
+10n|Capacitor|C5|Cap P5.08MM (3p) disk2|Cap Ceramic|1
+1.5KE20CA|1500W Transil (TVS Diode)|D1|TVS diode DO-201 V|TVS 1.5KE20CA|1
+1N5822|3 Amp Shotki  Diode|D2|Diode DO-201|D Shotki 1N5822|1
+1N5822|3 Amp Shotki  Diode|D3|Diode DO-201 V|D Shotki 1N5822|1
+Connector|DG301 series|J1, J2, J3, J4|DG301 5mm 2p|DG301-5.0-2P12|4
+Inductor V|Inductor Vertical|L1, L2, L3|Toroid V D14-W6|Inductor V|3
+TIP122|NPN Darlington 5A, 65W, 100V, h>1000|Q1, Q3|TO220-2|TIP122|2
+BC817-40|NPN 45 V, 500 mA NPN general-purpose transistor|Q2|SOT-23|BC817-40|1
+10k||R1|SMD 0805 (2012)|Res SMD 0805|1
+1kOm||R2|SMD 0805 (2012)|Res SMD 0805|1
+1 kOm||R3, R7|Res p7.62 (4p) 0.25w|Res All Types|2
+10 kOm||R4|SMD 0805 (2012)|Res SMD 0805|1
+10 kOm||R5|Res p7.62 (4p) 0.25w|Res All Types|1
+LM2596T-5.0|Voltage Regulator|U1, U2|TO220-5 Vertical|LM2596T-5.0|2
