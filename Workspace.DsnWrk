@@ -16,3 +16,5 @@ ProjectPath=Power\Car Power Supply\Car Power Supply.PrjPcb
 ProjectPath=Moto\Led Strip 2 colors\Led Strip 5050 3x parrallel 10mm.PrjPcb
 [Project8]
 ProjectPath=Moto\Led Strip 2 colors\Led Strip 8mm.PrjPcb
+[Project9]
+ProjectPath=Sensor\End OptoSwitch\End OptoSwitch.PrjPcb
