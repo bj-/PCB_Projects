@@ -18,3 +18,9 @@ ProjectPath=Moto\Led Strip 2 colors\Led Strip 5050 3x parrallel 10mm.PrjPcb
 ProjectPath=Moto\Led Strip 2 colors\Led Strip 8mm.PrjPcb
 [Project9]
 ProjectPath=Sensor\End OptoSwitch\End OptoSwitch.PrjPcb
+[Project10]
+ProjectPath=CNC\Sensors Interface.PrjPcb
+[Project11]
+ProjectPath=BMW\BMW E34 Start-Stop Btn\BMW E34 Start-Stop Btn.PrjPcb
+[Project12]
+ProjectPath=Debug and SelfSupport\Relay via transistor\Relay via transistor.PrjPcb
