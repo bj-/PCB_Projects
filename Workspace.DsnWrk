@@ -26,3 +26,7 @@ ProjectPath=Relay off Delay\Relay off delay.PrjPcb
 ProjectPath=Debug and SelfSupport\Atmega8A Dev board\Atmega8a dev board.PrjPcb
 [Project13]
 ProjectPath=Light Control\Light Control.PrjPcb
+[Project14]
+ProjectPath=Debug and SelfSupport\ExtBoard 20Pin\ExtBoard 20Pin.PrjPcb
+[Project15]
+ProjectPath=Sensor\RTC 1307 (Real Time Clock)\RTC 1307.PrjPcb
