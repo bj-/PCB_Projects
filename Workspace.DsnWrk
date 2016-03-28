@@ -3,30 +3,26 @@ Version=1.0
 [Project1]
 ProjectPath=BMW\BMW F800GS Board\BMW F800GS Board.PrjPcb
 [Project2]
-ProjectPath=Moto\F800GS Front DayLight\F800GSDayLight.PrjPcb
-[Project3]
 ProjectPath=Power\Car Power Supply v2\Car Power Supply.PrjPcb
-[Project4]
-ProjectPath=Moto\Led Strip 2 colors\Led Strip 2 colors.PrjPcb
-[Project5]
+[Project3]
 ProjectPath=Power\Car Power Supply\Car Power Supply.PrjPcb
-[Project6]
-ProjectPath=Moto\Led Strip 2 colors\Led Strip 5050 3x parrallel 10mm.PrjPcb
-[Project7]
-ProjectPath=Moto\Led Strip 2 colors\Led Strip 8mm.PrjPcb
-[Project8]
+[Project4]
 ProjectPath=CNC\Sensors Interface.PrjPcb
-[Project9]
+[Project5]
 ProjectPath=BMW\BMW E34 Start-Stop Btn\BMW E34 Start-Stop Btn v2.PrjPcb
-[Project10]
+[Project6]
 ProjectPath=Sensor\Hall Digital Sensor\Hall Digital Sensor.PrjPcb
-[Project11]
+[Project7]
 ProjectPath=Relay off Delay\Relay off delay.PrjPcb
-[Project12]
+[Project8]
 ProjectPath=Debug and SelfSupport\Atmega8A Dev board\Atmega8a dev board.PrjPcb
-[Project13]
+[Project9]
 ProjectPath=Light Control\Light Control.PrjPcb
-[Project14]
+[Project10]
 ProjectPath=Debug and SelfSupport\ExtBoard 20Pin\ExtBoard 20Pin.PrjPcb
-[Project15]
+[Project11]
 ProjectPath=Sensor\RTC 1307 (Real Time Clock)\RTC 1307.PrjPcb
+[Project12]
+ProjectPath=CNC Control System\Fluid Control\Fluide Control.PrjPcb
+[Project13]
+ProjectPath=CNC Control System\Cooling Fan Control\Cooling Fan Control.PrjPcb
