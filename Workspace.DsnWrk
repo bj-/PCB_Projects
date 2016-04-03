@@ -19,10 +19,8 @@ ProjectPath=Debug and SelfSupport\Atmega8A Dev board\Atmega8a dev board.PrjPcb
 [Project9]
 ProjectPath=Light Control\Light Control.PrjPcb
 [Project10]
-ProjectPath=Debug and SelfSupport\ExtBoard 20Pin\ExtBoard 20Pin.PrjPcb
-[Project11]
 ProjectPath=Sensor\RTC 1307 (Real Time Clock)\RTC 1307.PrjPcb
-[Project12]
+[Project11]
 ProjectPath=CNC Control System\Fluid Control\Fluide Control.PrjPcb
-[Project13]
+[Project12]
 ProjectPath=CNC Control System\Cooling Fan Control\Cooling Fan Control.PrjPcb
