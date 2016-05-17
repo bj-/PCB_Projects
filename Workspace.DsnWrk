@@ -22,3 +22,7 @@ ProjectPath=Light Control\Light Control.PrjPcb
 ProjectPath=CNC Control System\Fluid Control\Fluide Control.PrjPcb
 [Project11]
 ProjectPath=CNC Control System\Cooling Fan Control\Cooling Fan Control.PrjPcb
+[Project12]
+ProjectPath=Debug and SelfSupport\AtMega8-32 Programming Board\AtMega8-32 Programming Board.PrjPcb
+[Project13]
+ProjectPath=PCB_Project2.PrjPCB
