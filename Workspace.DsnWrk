@@ -15,14 +15,6 @@ ProjectPath=Sensor\Hall Digital Sensor\Hall Digital Sensor.PrjPcb
 [Project7]
 ProjectPath=Relay off Delay\Relay off delay.PrjPcb
 [Project8]
-ProjectPath=Debug and SelfSupport\Atmega8A Dev board\Atmega8a dev board.PrjPcb
-[Project9]
-ProjectPath=Light Control\Light Control.PrjPcb
-[Project10]
 ProjectPath=CNC Control System\Fluid Control\Fluide Control.PrjPcb
-[Project11]
+[Project9]
 ProjectPath=CNC Control System\Cooling Fan Control\Cooling Fan Control.PrjPcb
-[Project12]
-ProjectPath=Debug and SelfSupport\AtMega8-32 Programming Board\AtMega8-32 Programming Board.PrjPcb
-[Project13]
-ProjectPath=PCB_Project2.PrjPCB
