@@ -1,20 +1,10 @@
 [ProjectGroup]
 Version=1.0
 [Project1]
-ProjectPath=BMW\BMW F800GS Board\BMW F800GS Board.PrjPcb
-[Project2]
-ProjectPath=Power\Car Power Supply v2\Car Power Supply.PrjPcb
-[Project3]
-ProjectPath=Power\Car Power Supply\Car Power Supply.PrjPcb
-[Project4]
 ProjectPath=CNC\Sensors Interface.PrjPcb
-[Project5]
+[Project2]
 ProjectPath=BMW\BMW E34 Start-Stop Btn\BMW E34 Start-Stop Btn v2.PrjPcb
-[Project6]
-ProjectPath=Sensor\Hall Digital Sensor\Hall Digital Sensor.PrjPcb
-[Project7]
-ProjectPath=Relay off Delay\Relay off delay.PrjPcb
-[Project8]
-ProjectPath=CNC Control System\Fluid Control\Fluide Control.PrjPcb
-[Project9]
-ProjectPath=CNC Control System\Cooling Fan Control\Cooling Fan Control.PrjPcb
+[Project3]
+ProjectPath=Light Control\Light Control Compact.PrjPcb
+[Project4]
+ProjectPath=Light Control\Light Control - 6ports.PrjPcb
