@@ -10,3 +10,5 @@ ProjectPath=Light Control\Light Control Compact.PrjPcb
 ProjectPath=Light Control\Light Control - 6ports.PrjPcb
 [Project5]
 ProjectPath=Light Control\Light Control - 8-16 in 16-32 out.PrjPcb
+[Project6]
+ProjectPath=Debug and SelfSupport\DBL 165 ShiftIn Red - TestButtonsPlate.PrjPcb
