@@ -9,6 +9,8 @@ ProjectPath=Light Control\Light Control Compact.PrjPcb
 [Project4]
 ProjectPath=Light Control\Light Control - 6ports.PrjPcb
 [Project5]
-ProjectPath=Light Control\Light Control - 8-16 in 16-32 out.PrjPcb
+ProjectPath=Light Control\DBL 165 SerialIn Register\DBL 165 SerialIn Register.PrjPcb
 [Project6]
-ProjectPath=Debug and SelfSupport\DBL 165 ShiftIn Red - TestButtonsPlate.PrjPcb
+ProjectPath=Light Control\Input interface for DBL165 ShiftIn Reg\Input interface for DBL165 ShiftIn Reg.PrjPcb
+[Project7]
+ProjectPath=Light Control\DBL TLC5940 driver for High load\DBL TLC5940 driver for High load.PrjPcb
