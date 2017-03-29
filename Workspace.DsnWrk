@@ -14,3 +14,5 @@ ProjectPath=Light Control\DBL 165 SerialIn Register\DBL 165 SerialIn Register.Pr
 ProjectPath=Light Control\Input interface for DBL165 ShiftIn Reg\Input interface for DBL165 ShiftIn Reg.PrjPcb
 [Project7]
 ProjectPath=Light Control\DBL TLC5940 driver for High load\DBL TLC5940 driver for High load.PrjPcb
+[Project8]
+ProjectPath=Moto\Led Strip 2 colors\Led Strip 2 colors.PrjPcb
