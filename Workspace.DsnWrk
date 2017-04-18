@@ -16,3 +16,11 @@ ProjectPath=Light Control\Input interface for DBL165 ShiftIn Reg\Input interface
 ProjectPath=Light Control\DBL TLC5940 driver for High load\DBL TLC5940 driver for High load.PrjPcb
 [Project8]
 ProjectPath=Moto\Led Strip 2 colors\Led Strip 2 colors.PrjPcb
+[Project9]
+ProjectPath=Light Control\Adjustable Led Driver on LM-317 (6 ports)\Adjustable Led Driver on LM-317 (6 ports).PrjPcb
+[Project10]
+ProjectPath=Light Control\DBL 165 ShiftIn Reg - TestButtonsPlate\DBL 165 ShiftIn Red - TestButtonsPlate.PrjPcb
+[Project11]
+ProjectPath=Light Control\DBL 165 SerialIn Register\DBL 165 SerialIn Register (v2).PrjPcb
+[Project12]
+ProjectPath=Alarm System\HomeAlarm - M31 Interface board.PrjPcb
