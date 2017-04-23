@@ -23,4 +23,6 @@ ProjectPath=Light Control\DBL 165 ShiftIn Reg - TestButtonsPlate\DBL 165 ShiftIn
 [Project11]
 ProjectPath=Light Control\DBL 165 SerialIn Register\DBL 165 SerialIn Register (v2).PrjPcb
 [Project12]
-ProjectPath=Alarm System\HomeAlarm - M31 Interface board.PrjPcb
+ProjectPath=Debug and SelfSupport\Test Plates - SMD to PLS Adapters.PrjPcb
+[Project13]
+ProjectPath=Sensor\PIR Sensor driver v4\PIR Sensor driver v4.PrjPcb
