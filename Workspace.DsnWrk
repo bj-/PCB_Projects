@@ -1,28 +1,20 @@
 [ProjectGroup]
 Version=1.0
 [Project1]
-ProjectPath=CNC\Sensors Interface.PrjPcb
-[Project2]
 ProjectPath=BMW\BMW E34 Start-Stop Btn\BMW E34 Start-Stop Btn v2.PrjPcb
-[Project3]
+[Project2]
 ProjectPath=Light Control\Light Control Compact.PrjPcb
-[Project4]
+[Project3]
 ProjectPath=Light Control\Light Control - 6ports.PrjPcb
-[Project5]
+[Project4]
 ProjectPath=Light Control\DBL 165 SerialIn Register\DBL 165 SerialIn Register.PrjPcb
-[Project6]
-ProjectPath=Light Control\Input interface for DBL165 ShiftIn Reg\Input interface for DBL165 ShiftIn Reg.PrjPcb
-[Project7]
+[Project5]
 ProjectPath=Light Control\DBL TLC5940 driver for High load\DBL TLC5940 driver for High load.PrjPcb
-[Project8]
-ProjectPath=Moto\Led Strip 2 colors\Led Strip 2 colors.PrjPcb
-[Project9]
+[Project6]
 ProjectPath=Light Control\Adjustable Led Driver on LM-317 (6 ports)\Adjustable Led Driver on LM-317 (6 ports).PrjPcb
-[Project10]
-ProjectPath=Light Control\DBL 165 ShiftIn Reg - TestButtonsPlate\DBL 165 ShiftIn Red - TestButtonsPlate.PrjPcb
-[Project11]
+[Project7]
 ProjectPath=Light Control\DBL 165 SerialIn Register\DBL 165 SerialIn Register (v2).PrjPcb
-[Project12]
+[Project8]
 ProjectPath=Debug and SelfSupport\Test Plates - SMD to PLS Adapters.PrjPcb
-[Project13]
+[Project9]
 ProjectPath=Sensor\PIR Sensor driver v4\PIR Sensor driver v4.PrjPcb
