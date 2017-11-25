@@ -20,3 +20,5 @@ ProjectPath=Debug and SelfSupport\Test Plates - SMD to PLS Adapters.PrjPcb
 ProjectPath=Sensor\PIR Sensor driver v4\PIR Sensor driver v4.PrjPcb
 [Project10]
 ProjectPath=Light Control\Light Control - 8-16 in 16-32 out MainBlock.PrjPcb
+[Project11]
+ProjectPath=Light Control\LC - Agregation Boards\LC Agregation Boards.PrjPcb
