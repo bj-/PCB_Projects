@@ -24,3 +24,5 @@ ProjectPath=Light Control\Light Control - 8-16 in 16-32 out MainBlock.PrjPcb
 ProjectPath=Light Control\LC - Agregation Boards\LC Agregation Boards.PrjPcb
 [Project12]
 ProjectPath=CountDown LCD-Relay-Sound\CountDown LCD-Relay-Sound.PrjPcb
+[Project13]
+ProjectPath=Light Control\LC - Communication Board\LC - Communication Board.PrjPcb
