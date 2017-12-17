@@ -36,6 +36,22 @@ PrefsVaultGUID=
 PrefsRevisionGUID=
 
 [Document1]
+DocumentPath=LC Agregation Boards v 1.1.PcbDoc
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+
+[Document2]
 DocumentPath=LC Agregation Boards.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -51,7 +67,7 @@ ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
 
-[Document2]
+[Document3]
 DocumentPath=LC Agregation Boards.PcbDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
