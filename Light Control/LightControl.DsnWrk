@@ -1,0 +1,26 @@
+[ProjectGroup]
+Version=1.0
+[Project1]
+ProjectPath=Light Control - 6ports.PrjPcb
+[Project2]
+ProjectPath=Light Control - 8-16 in 16-32 out MainBlock.PrjPcb
+[Project3]
+ProjectPath=Light Control Compact.PrjPcb
+[Project4]
+ProjectPath=Light Control.PrjPcb
+[Project5]
+ProjectPath=Light Control BigOne\Light Control BigOne.PrjPcb
+[Project6]
+ProjectPath=DBL TLC5940 driver for High load\DBL TLC5940 driver for High load.PrjPcb
+[Project7]
+ProjectPath=DBL 165 ShiftIn Reg - TestButtonsPlate\DBL 165 ShiftIn Red - TestButtonsPlate.PrjPcb
+[Project8]
+ProjectPath=DBL 165 SerialIn Register\DBL 165 SerialIn Register (v2).PrjPcb
+[Project9]
+ProjectPath=Input interface for DBL165 ShiftIn Reg\Input interface for DBL165 ShiftIn Reg.PrjPcb
+[Project10]
+ProjectPath=LC - Communication Board\LC - Communication Board.PrjPcb
+[Project11]
+ProjectPath=LC - Agregation Boards (RJ-45)\LC - Agregation Boards )RJ-R45).PrjPcb
+[Project12]
+ProjectPath=LC - Agregation Boards\LC Agregation Boards.PrjPcb
