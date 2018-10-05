@@ -3,22 +3,10 @@ Version=1.0
 [Project1]
 ProjectPath=BMW\BMW E34 Start-Stop Btn\BMW E34 Start-Stop Btn v2.PrjPcb
 [Project2]
-ProjectPath=Light Control\Light Control Compact.PrjPcb
-[Project3]
-ProjectPath=Light Control\Light Control - 6ports.PrjPcb
-[Project4]
-ProjectPath=Light Control\DBL 165 SerialIn Register\DBL 165 SerialIn Register.PrjPcb
-[Project5]
-ProjectPath=Light Control\DBL TLC5940 driver for High load\DBL TLC5940 driver for High load.PrjPcb
-[Project6]
-ProjectPath=Light Control\Adjustable Led Driver on LM-317 (6 ports)\Adjustable Led Driver on LM-317 (6 ports).PrjPcb
-[Project7]
-ProjectPath=Light Control\DBL 165 SerialIn Register\DBL 165 SerialIn Register (v2).PrjPcb
-[Project8]
 ProjectPath=Debug and SelfSupport\Test Plates - SMD to PLS Adapters.PrjPcb
-[Project9]
-ProjectPath=Light Control\Light Control - 8-16 in 16-32 out MainBlock.PrjPcb
-[Project10]
+[Project3]
 ProjectPath=Sensor\PIR Sensor driver v5.1-Cheburan\PIR Sensor driver v5.1-Cheburan.PrjPcb
-[Project11]
+[Project4]
 ProjectPath=Moto\Mirror TurnSignal\Mirror TurnSignal - v 2.3\Mirror TurnSignal - v 2.3.PrjPcb
+[Project5]
+ProjectPath=Power\DC-DC StepDown in Box 45x30x15 (moto)\DC-DC StepDown in Box 45x30x15 (moto).PrjPcb
