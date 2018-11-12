@@ -24,3 +24,5 @@ ProjectPath=LC - Communication Board\LC - Communication Board.PrjPcb
 ProjectPath=LC - Agregation Boards (RJ-45)\LC - Agregation Boards )RJ-R45).PrjPcb
 [Project12]
 ProjectPath=LC - Agregation Boards\LC Agregation Boards.PrjPcb
+[Project13]
+ProjectPath=..\Power\AC Current Sensor (Multicanal)\AC Current Sensor (Multicanal).PrjPcb
