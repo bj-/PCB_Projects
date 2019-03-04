@@ -26,3 +26,5 @@ ProjectPath=LC - Agregation Boards (RJ-45)\LC - Agregation Boards )RJ-R45).PrjPc
 ProjectPath=LC - Agregation Boards\LC Agregation Boards.PrjPcb
 [Project13]
 ProjectPath=..\Power\AC Current Sensor (Multicanal)\AC Current Sensor (Multicanal).PrjPcb
+[Project14]
+ProjectPath=Adjustable Led Driver on LM-317 (6 ports)\Adjustable Led Driver on LM-317 (6 ports).PrjPcb
