@@ -1,0 +1,10 @@
+[ProjectGroup]
+Version=1.0
+[Project1]
+ProjectPath=BMW\BMW R1250GSA\R1250GSA HandHeater and rear 5-12V\R1250GS HandHeater and rear 5-12V.PrjPcb
+[Project2]
+ProjectPath=BMW\BMW R1250GSA\R1250GSA Foglamp Swith\R1250GSA Foglamp Swith (v2.0)\R1250GSA Foglamp Swith (v2.0).PrjPcb
+[Project3]
+ProjectPath=Power\Car Power Supply 2x Line\Car Power Supply 2x Line v2.0\Car Power Supply 2x Line (v2).PrjPcb
+[Project4]
+ProjectPath=Power\Moto Power Supply 4x12v 4x5v\Moto Power Supply 4x12v 4x5v (v2.0)\Moto Power Supply 4x12v 4x5v (v2.0).PrjPcb
